@@ -1,0 +1,61 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: white;
+}
+
+.nav-container{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+  padding-top: 20px;
+  
+
+}
+
+.logo{
+    margin-left:4rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-list-items{
+    list-style-type: none;
+    display: flex;
+    margin-right: 4rem;
+    
+}
+
+.nav-list-items li{
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-list-items li:hover{
+    text-decoration: underline;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+@media (max-width:800px){
+    .hamburger-menu{
+        display: block;
+        font-size: 2rem;
+        margin: 20px;
+    }
+    .nav-list-items{
+        display: none;
+    }
+    .mobile-menu-link{
+        display: grid;
+    }
+}
