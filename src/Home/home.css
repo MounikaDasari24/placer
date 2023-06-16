@@ -11,7 +11,7 @@
 
 .home-text{
     color:white;
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     font: Montserrat;
     padding-top: 4rem;
     padding-left: 40px;
@@ -28,8 +28,8 @@
     cursor: pointer;
 }
 .home-hero{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 @media (max-width:480px){
